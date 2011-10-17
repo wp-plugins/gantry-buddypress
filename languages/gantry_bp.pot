@@ -1,0 +1,1253 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gantry_bp\n"
+"POT-Creation-Date: 2011-10-11 19:18:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: _inc/ajax.php:166
+msgid "Please enter some content to post."
+msgstr ""
+
+#: _inc/ajax.php:183
+msgid "There was a problem posting your update, please try again."
+msgstr ""
+
+#: _inc/ajax.php:208
+msgid "Please do not leave the comment area blank."
+msgstr ""
+
+#: _inc/ajax.php:213 _inc/ajax.php:224
+msgid "There was an error posting that reply, please try again."
+msgstr ""
+
+#: _inc/ajax.php:281 _inc/ajax.php:316
+msgid "There was a problem when deleting. Please try again."
+msgstr ""
+
+#: _inc/ajax.php:331 html/activity/entry.php:78
+msgid "Remove Favorite"
+msgstr ""
+
+#: _inc/ajax.php:340 html/activity/entry.php:74
+msgid "Favorite"
+msgstr ""
+
+#: _inc/ajax.php:399 html/groups/create.php:238
+#: html/groups/single/send-invites.php:51
+msgid "Remove Invite"
+msgstr ""
+
+#: _inc/ajax.php:425
+msgid "Friendship could not be canceled."
+msgstr ""
+
+#: _inc/ajax.php:427
+msgid "Add Friend"
+msgstr ""
+
+#: _inc/ajax.php:435
+msgid "Friendship could not be requested."
+msgstr ""
+
+#: _inc/ajax.php:437
+msgid "Friendship Requested"
+msgstr ""
+
+#: _inc/ajax.php:440
+msgid "Request Pending"
+msgstr ""
+
+#: _inc/ajax.php:452
+msgid "There was a problem accepting that request. Please try again."
+msgstr ""
+
+#: _inc/ajax.php:463
+msgid "There was a problem rejecting that request. Please try again."
+msgstr ""
+
+#: _inc/ajax.php:486
+msgid "Error joining group"
+msgstr ""
+
+#: _inc/ajax.php:488
+msgid "Leave Group"
+msgstr ""
+
+#: _inc/ajax.php:496
+msgid "Error requesting membership"
+msgstr ""
+
+#: _inc/ajax.php:498
+msgid "Membership Requested"
+msgstr ""
+
+#: _inc/ajax.php:507
+msgid "Error leaving group"
+msgstr ""
+
+#: _inc/ajax.php:510
+msgid "Join Group"
+msgstr ""
+
+#: _inc/ajax.php:512
+msgid "Request Membership"
+msgstr ""
+
+#: _inc/ajax.php:524
+msgid "There was a problem closing the notice."
+msgstr ""
+
+#: _inc/ajax.php:549
+msgid "Sent %s"
+msgstr ""
+
+#: _inc/ajax.php:566
+msgid "There was a problem sending that reply. Please try again."
+msgstr ""
+
+#: _inc/ajax.php:576
+msgid "There was a problem marking messages as unread."
+msgstr ""
+
+#: _inc/ajax.php:592
+msgid "There was a problem marking messages as read."
+msgstr ""
+
+#: _inc/ajax.php:608
+msgid "There was a problem deleting messages."
+msgstr ""
+
+#: _inc/ajax.php:615
+msgid "Messages deleted."
+msgstr ""
+
+#: bpt-functions.php:53
+msgid "My Favorites"
+msgstr ""
+
+#: bpt-functions.php:54
+msgid "Accepted"
+msgstr ""
+
+#: bpt-functions.php:55
+msgid "Rejected"
+msgstr ""
+
+#: bpt-functions.php:56
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: bpt-functions.php:57
+msgid "Show all"
+msgstr ""
+
+#: bpt-functions.php:58
+msgid "comments"
+msgstr ""
+
+#: bpt-functions.php:59
+msgid "Close"
+msgstr ""
+
+#: bpt-functions.php:67 html/activity/entry.php:43
+msgid "View"
+msgstr ""
+
+#: gantry_bp.php:137
+msgid "BuddyPress Profile Component"
+msgstr ""
+
+#: gantry_bp.php:138
+msgid "BuddyPress Activity Component"
+msgstr ""
+
+#: gantry_bp.php:139
+msgid "BuddyPress Blogs Component"
+msgstr ""
+
+#: gantry_bp.php:140
+msgid "BuddyPress Messages Component"
+msgstr ""
+
+#: gantry_bp.php:141
+msgid "BuddyPress Friends Component"
+msgstr ""
+
+#: gantry_bp.php:142
+msgid "BuddyPress Groups Component"
+msgstr ""
+
+#: gantry_bp.php:143
+msgid "BuddyPress Settings Component"
+msgstr ""
+
+#: html/activity/activity-loop.php:47
+msgid "Load More"
+msgstr ""
+
+#: html/activity/activity-loop.php:61
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#. translators: 1: user profile link, 2: user name, 3: activity permalink, 3:
+#. activity timestamp
+
+#: html/activity/comment.php:33
+msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: html/activity/comment.php:43 html/forums/single/edit.php:19
+#: html/groups/single/forum/edit.php:19
+msgid "Reply"
+msgstr ""
+
+#: html/activity/comment.php:49
+#: html/members/single/messages/messages-loop.php:59
+#: html/members/single/messages/single.php:33
+msgid "Delete"
+msgstr ""
+
+#: html/activity/entry.php:43
+msgid "In reply to: "
+msgstr ""
+
+#: html/activity/entry.php:43
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: html/activity/entry.php:66
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: html/activity/entry.php:74
+msgid "Mark as Favorite"
+msgstr ""
+
+#: html/activity/entry.php:110
+msgid "Post"
+msgstr ""
+
+#: html/activity/entry.php:110
+msgid "or press esc to cancel."
+msgstr ""
+
+#: html/activity/index.php:27
+msgid "Site Activity"
+msgstr ""
+
+#: html/activity/index.php:45
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: html/activity/index.php:45 html/members/index.php:39
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: html/activity/index.php:55
+msgid "The activity of my friends only."
+msgstr ""
+
+#: html/activity/index.php:55 html/members/index.php:43
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: html/activity/index.php:67
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: html/activity/index.php:67 html/groups/index.php:44
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: html/activity/index.php:77
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: html/activity/index.php:77
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: html/activity/index.php:83
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: html/activity/index.php:83
+msgid "Mentions"
+msgstr ""
+
+#: html/activity/index.php:83
+msgid "<span>%s new</span>"
+msgstr ""
+
+#: html/activity/index.php:93 html/groups/single/activity.php:12
+msgid "RSS Feed"
+msgstr ""
+
+#: html/activity/index.php:93 html/groups/single/activity.php:12
+msgid "RSS"
+msgstr ""
+
+#: html/activity/index.php:98 html/groups/single/activity.php:17
+#: html/members/single/activity.php:27
+msgid "Show:"
+msgstr ""
+
+#: html/activity/index.php:100 html/groups/single/activity.php:19
+#: html/members/single/activity.php:29
+msgid "Everything"
+msgstr ""
+
+#: html/activity/index.php:101 html/groups/single/activity.php:20
+#: html/members/single/activity.php:30
+msgid "Updates"
+msgstr ""
+
+#: html/activity/index.php:105 html/forums/forums-loop.php:46
+#: html/members/single/activity.php:36
+msgid "Posts"
+msgstr ""
+
+#: html/activity/index.php:106 html/members/single/activity.php:37
+msgid "Comments"
+msgstr ""
+
+#: html/activity/index.php:112 html/groups/single/activity.php:23
+#: html/members/single/activity.php:52
+msgid "Forum Topics"
+msgstr ""
+
+#: html/activity/index.php:113 html/groups/single/activity.php:24
+#: html/members/single/activity.php:53
+msgid "Forum Replies"
+msgstr ""
+
+#: html/activity/index.php:119 html/members/single/activity.php:59
+msgid "New Groups"
+msgstr ""
+
+#: html/activity/index.php:120 html/groups/single/activity.php:27
+#: html/members/single/activity.php:60
+msgid "Group Memberships"
+msgstr ""
+
+#: html/activity/index.php:126 html/members/single/activity.php:44
+msgid "Friendships"
+msgstr ""
+
+#: html/activity/index.php:130
+msgid "New Members"
+msgstr ""
+
+#: html/activity/post-form.php:29
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: html/activity/post-form.php:31
+msgid "What's new, %s?"
+msgstr ""
+
+#: html/activity/post-form.php:41
+msgid "Post Update"
+msgstr ""
+
+#: html/activity/post-form.php:48
+msgid "Post in"
+msgstr ""
+
+#: html/activity/post-form.php:51 html/members/single/profile/profile-wp.php:17
+msgid "My Profile"
+msgstr ""
+
+#: html/blogs/blogs-loop.php:96
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: html/blogs/create.php:25 html/blogs/index.php:27
+msgid "Create a Site"
+msgstr ""
+
+#: html/blogs/create.php:25 html/blogs/index.php:27
+msgid "Site Directory"
+msgstr ""
+
+#: html/blogs/create.php:36
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: html/blogs/index.php:39
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: html/blogs/index.php:43
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: html/blogs/index.php:59 html/forums/index.php:64
+#: html/forums/single/forum.php:40 html/groups/index.php:60
+#: html/groups/single/forum.php:41 html/members/index.php:59
+#: html/members/single/blogs.php:28 html/members/single/forums.php:27
+#: html/members/single/friends.php:29 html/members/single/groups.php:29
+msgid "Order By:"
+msgstr ""
+
+#: html/blogs/index.php:61 html/forums/index.php:66
+#: html/forums/single/forum.php:42 html/groups/index.php:62
+#: html/groups/single/forum.php:43 html/members/index.php:61
+#: html/members/single/blogs.php:30 html/members/single/forums.php:29
+#: html/members/single/friends.php:31 html/members/single/groups.php:31
+msgid "Last Active"
+msgstr ""
+
+#: html/blogs/index.php:62 html/members/single/blogs.php:31
+msgid "Newest"
+msgstr ""
+
+#: html/blogs/index.php:63 html/groups/index.php:65 html/members/index.php:66
+#: html/members/single/blogs.php:32 html/members/single/friends.php:33
+#: html/members/single/groups.php:34
+msgid "Alphabetical"
+msgstr ""
+
+#: html/forums/forums-loop.php:45
+msgid "Topic"
+msgstr ""
+
+#: html/forums/forums-loop.php:47
+msgid "Freshness"
+msgstr ""
+
+#: html/forums/forums-loop.php:60
+msgid "Permalink"
+msgstr ""
+
+#. translators: "started by [poster] in [forum]"
+
+#: html/forums/forums-loop.php:67
+msgid "Started by %1$s"
+msgstr ""
+
+#. translators: "started by [poster] in [forum]"
+
+#: html/forums/forums-loop.php:78
+msgid "in %1$s"
+msgstr ""
+
+#: html/forums/forums-loop.php:128
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: html/forums/index.php:27
+msgid "Forums Directory"
+msgstr ""
+
+#: html/forums/index.php:27 html/forums/single/forum.php:25
+#: html/groups/single/forum.php:26
+msgid "New Topic"
+msgstr ""
+
+#: html/forums/index.php:44
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: html/forums/index.php:48
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: html/forums/index.php:67 html/forums/single/forum.php:43
+#: html/groups/single/forum.php:44 html/members/single/forums.php:30
+msgid "Most Posts"
+msgstr ""
+
+#: html/forums/index.php:68 html/forums/single/forum.php:44
+#: html/groups/single/forum.php:45 html/members/single/forums.php:31
+msgid "Unreplied"
+msgstr ""
+
+#: html/forums/index.php:104
+msgid "Create New Topic:"
+msgstr ""
+
+#: html/forums/index.php:108 html/forums/single/edit.php:58
+#: html/groups/single/forum/edit.php:58 html/groups/single/forum.php:80
+msgid "Title:"
+msgstr ""
+
+#: html/forums/index.php:111 html/forums/single/edit.php:61
+#: html/groups/single/forum/edit.php:61 html/groups/single/forum.php:83
+msgid "Content:"
+msgstr ""
+
+#: html/forums/index.php:114 html/groups/single/forum/edit.php:64
+#: html/groups/single/forum.php:86
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: html/forums/index.php:117
+msgid "Post In Group Forum:"
+msgstr ""
+
+#. translators: no option picked in select box
+
+#: html/forums/index.php:120
+msgid "----"
+msgstr ""
+
+#: html/forums/index.php:137 html/groups/single/forum.php:92
+msgid "Post Topic"
+msgstr ""
+
+#: html/forums/index.php:138
+msgid "Cancel"
+msgstr ""
+
+#: html/forums/index.php:149
+msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
+msgstr ""
+
+#: html/forums/single/edit.php:25 html/forums/single/forum.php:31
+#: html/forums/single/topic.php:49 html/groups/single/forum/edit.php:25
+#: html/groups/single/forum/topic.php:25 html/groups/single/forum.php:32
+msgid "Forum Directory"
+msgstr ""
+
+#: html/forums/single/edit.php:34 html/groups/single/forum/edit.php:34
+msgid "Edit:"
+msgstr ""
+
+#: html/forums/single/edit.php:66 html/forums/single/edit.php:82
+#: html/groups/single/admin.php:41 html/groups/single/admin.php:126
+#: html/groups/single/forum/edit.php:69 html/groups/single/forum/edit.php:85
+#: html/members/single/profile/edit.php:135
+#: html/members/single/settings/general.php:76
+#: html/members/single/settings/notifications.php:69 loader.php:146
+msgid "Save Changes"
+msgstr ""
+
+#: html/forums/single/edit.php:97 html/groups/single/forum/edit.php:100
+msgid "This topic does not exist."
+msgstr ""
+
+#: html/forums/single/forum-header.php:22 html/groups/groups-loop.php:53
+#: html/groups/single/group-header.php:51
+msgid "active %s"
+msgstr ""
+
+#: html/forums/single/topic.php:43 html/groups/single/forum/topic.php:19
+msgid "New Reply"
+msgstr ""
+
+#: html/forums/single/topic.php:103
+msgid "%s said %s ago:"
+msgstr ""
+
+#: html/forums/single/topic.php:123 html/groups/single/forum/topic.php:100
+msgid "Permanent link to this post"
+msgstr ""
+
+#: html/forums/single/topic.php:159 html/groups/single/forum/topic.php:136
+msgid "Add a reply:"
+msgstr ""
+
+#: html/forums/single/topic.php:164 html/groups/single/forum/topic.php:141
+msgid "Post Reply"
+msgstr ""
+
+#: html/forums/single/topic.php:175 html/groups/single/forum/topic.php:152
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: html/forums/single/topic.php:190 html/groups/single/forum/topic.php:166
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: html/groups/create.php:22 html/groups/index.php:26
+msgid "Create a Group"
+msgstr ""
+
+#: html/groups/create.php:22 html/groups/index.php:26
+msgid "Groups Directory"
+msgstr ""
+
+#: html/groups/create.php:43 html/groups/single/admin.php:25
+msgid "Group Name (required)"
+msgstr ""
+
+#: html/groups/create.php:46 html/groups/single/admin.php:28
+msgid "Group Description (required)"
+msgstr ""
+
+#: html/groups/create.php:66 html/groups/single/admin.php:56
+msgid "Enable discussion forum"
+msgstr ""
+
+#: html/groups/create.php:73
+msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: html/groups/create.php:82 html/groups/single/admin.php:65
+msgid "Privacy Options"
+msgstr ""
+
+#: html/groups/create.php:86 html/groups/single/admin.php:70
+msgid "This is a public group"
+msgstr ""
+
+#: html/groups/create.php:88 html/groups/single/admin.php:72
+msgid "Any site member can join this group."
+msgstr ""
+
+#: html/groups/create.php:89 html/groups/create.php:98
+#: html/groups/single/admin.php:73 html/groups/single/admin.php:83
+msgid "This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: html/groups/create.php:90 html/groups/single/admin.php:74
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: html/groups/create.php:95 html/groups/single/admin.php:80
+msgid "This is a private group"
+msgstr ""
+
+#: html/groups/create.php:97 html/groups/single/admin.php:82
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: html/groups/create.php:99 html/groups/create.php:108
+#: html/groups/single/admin.php:84 html/groups/single/admin.php:94
+msgid "Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: html/groups/create.php:104 html/groups/single/admin.php:90
+msgid "This is a hidden group"
+msgstr ""
+
+#: html/groups/create.php:106 html/groups/single/admin.php:92
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: html/groups/create.php:107 html/groups/single/admin.php:93
+msgid "This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: html/groups/create.php:115 html/groups/single/admin.php:101
+msgid "Group Invitations"
+msgstr ""
+
+#: html/groups/create.php:117 html/groups/single/admin.php:103
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: html/groups/create.php:122 html/groups/single/admin.php:108
+msgid "All group members"
+msgstr ""
+
+#: html/groups/create.php:127 html/groups/single/admin.php:113
+msgid "Group admins and mods only"
+msgstr ""
+
+#: html/groups/create.php:132 html/groups/single/admin.php:118
+msgid "Group admins only"
+msgstr ""
+
+#: html/groups/create.php:158 html/groups/single/admin.php:136
+msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
+msgstr ""
+
+#: html/groups/create.php:162 html/groups/single/admin.php:140
+#: html/members/single/profile/change-avatar.php:27
+msgid "Upload Image"
+msgstr ""
+
+#: html/groups/create.php:166
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: html/groups/create.php:173
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: html/groups/create.php:175 html/groups/single/admin.php:160
+#: html/members/single/profile/change-avatar.php:42
+msgid "Avatar to crop"
+msgstr ""
+
+#: html/groups/create.php:178 html/groups/single/admin.php:163
+#: html/members/single/profile/change-avatar.php:45
+msgid "Avatar preview"
+msgstr ""
+
+#: html/groups/create.php:181 html/groups/single/admin.php:166
+#: html/members/single/profile/change-avatar.php:48
+msgid "Crop Image"
+msgstr ""
+
+#: html/groups/create.php:220 html/groups/single/send-invites.php:31
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: html/groups/create.php:255 html/groups/single/send-invites.php:82
+msgid "Once you have built up friend connections you will be able to invite others to your group. You can send invites any time in the future by selecting the \"Send Invites\" option when viewing your new group."
+msgstr ""
+
+#: html/groups/create.php:277
+msgid "Back to Previous Step"
+msgstr ""
+
+#: html/groups/create.php:284
+msgid "Next Step"
+msgstr ""
+
+#: html/groups/create.php:291
+msgid "Create Group and Continue"
+msgstr ""
+
+#: html/groups/create.php:298
+msgid "Finish"
+msgstr ""
+
+#: html/groups/groups-loop.php:101
+msgid "There were no groups found."
+msgstr ""
+
+#: html/groups/index.php:40
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: html/groups/index.php:63 html/members/single/groups.php:32
+msgid "Most Members"
+msgstr ""
+
+#: html/groups/index.php:64 html/members/single/groups.php:33
+msgid "Newly Created"
+msgstr ""
+
+#: html/groups/single/admin.php:34
+msgid "Notify group members of changes via email"
+msgstr ""
+
+#: html/groups/single/admin.php:35 html/registration/register.php:212
+msgid "Yes"
+msgstr ""
+
+#: html/groups/single/admin.php:36 html/registration/register.php:213
+msgid "No"
+msgstr ""
+
+#: html/groups/single/admin.php:146
+msgid "If you'd like to remove the existing avatar but not upload a new one, please use the delete avatar button."
+msgstr ""
+
+#: html/groups/single/admin.php:148
+#: html/members/single/profile/change-avatar.php:33
+msgid "Delete Avatar"
+msgstr ""
+
+#: html/groups/single/admin.php:158
+msgid "Crop Avatar"
+msgstr ""
+
+#: html/groups/single/admin.php:186
+msgid "Administrators"
+msgstr ""
+
+#: html/groups/single/admin.php:194 html/groups/single/admin.php:219
+msgid "Profile picture of %s"
+msgstr ""
+
+#: html/groups/single/admin.php:198 html/groups/single/admin.php:224
+msgid "Demote to Member"
+msgstr ""
+
+#: html/groups/single/admin.php:212
+msgid "Moderators"
+msgstr ""
+
+#: html/groups/single/admin.php:223 html/groups/single/admin.php:279
+msgid "Promote to Admin"
+msgstr ""
+
+#: html/groups/single/admin.php:238
+msgid "Members"
+msgstr ""
+
+#: html/groups/single/admin.php:267
+msgid "(banned)"
+msgstr ""
+
+#: html/groups/single/admin.php:273
+msgid "Unban this member"
+msgstr ""
+
+#: html/groups/single/admin.php:273
+msgid "Remove Ban"
+msgstr ""
+
+#: html/groups/single/admin.php:277
+msgid "Kick and ban this member"
+msgstr ""
+
+#: html/groups/single/admin.php:277
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: html/groups/single/admin.php:278
+msgid "Promote to Mod"
+msgstr ""
+
+#: html/groups/single/admin.php:283
+msgid "Remove this member"
+msgstr ""
+
+#: html/groups/single/admin.php:283
+msgid "Remove from group"
+msgstr ""
+
+#: html/groups/single/admin.php:297 html/groups/single/members.php:96
+msgid "This group has no members."
+msgstr ""
+
+#: html/groups/single/admin.php:327 html/members/single/friends/requests.php:46
+#: html/members/single/groups/invites.php:32
+msgid "Accept"
+msgstr ""
+
+#: html/groups/single/admin.php:329 html/members/single/friends/requests.php:47
+#: html/members/single/groups/invites.php:33
+msgid "Reject"
+msgstr ""
+
+#: html/groups/single/admin.php:342
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: html/groups/single/admin.php:359
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: html/groups/single/admin.php:362
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: html/groups/single/admin.php:367
+msgid "Delete Group"
+msgstr ""
+
+#: html/groups/single/forum/topic.php:40
+msgid "Topic tags:"
+msgstr ""
+
+#: html/groups/single/forum/topic.php:86
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: html/groups/single/forum/topic.php:131
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: html/groups/single/forum.php:74
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: html/groups/single/forum.php:78
+msgid "Post a New Topic:"
+msgstr ""
+
+#: html/groups/single/group-header.php:20
+msgid "Group Admins"
+msgstr ""
+
+#: html/groups/single/group-header.php:29
+msgid "Group Mods"
+msgstr ""
+
+#: html/groups/single/request-membership.php:13
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: html/groups/single/request-membership.php:16
+msgid "Comments (optional)"
+msgstr ""
+
+#: html/groups/single/request-membership.php:21
+msgid "Send Request"
+msgstr ""
+
+#: html/groups/single/send-invites.php:69
+msgid "Send Invites"
+msgstr ""
+
+#: html/members/index.php:27
+msgid "Members Directory"
+msgstr ""
+
+#: html/members/index.php:62 html/members/single/friends.php:32
+msgid "Newest Registered"
+msgstr ""
+
+#: html/members/members-loop.php:114
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: html/members/single/friends/requests.php:77
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: html/members/single/groups/invites.php:23
+msgid "%s members"
+msgstr ""
+
+#: html/members/single/groups/invites.php:46
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: html/members/single/messages/compose.php:14
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: html/members/single/messages/compose.php:23
+msgid "This is a notice to all users."
+msgstr ""
+
+#: html/members/single/messages/compose.php:26
+msgid "Subject"
+msgstr ""
+
+#: html/members/single/messages/compose.php:29
+msgid "Message"
+msgstr ""
+
+#: html/members/single/messages/compose.php:37
+msgid "Send Message"
+msgstr ""
+
+#: html/members/single/messages/messages-loop.php:40
+msgid "From:"
+msgstr ""
+
+#: html/members/single/messages/messages-loop.php:45
+msgid "To:"
+msgstr ""
+
+#: html/members/single/messages/messages-loop.php:51
+msgid "View Message"
+msgstr ""
+
+#: html/members/single/messages/messages-loop.php:59
+#: html/members/single/messages/notices-loop.php:47
+#: html/members/single/messages/single.php:33
+msgid "Delete Message"
+msgstr ""
+
+#: html/members/single/messages/messages-loop.php:77
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: html/members/single/messages/notices-loop.php:40
+msgid "Sent:"
+msgstr ""
+
+#: html/members/single/messages/notices-loop.php:58
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: html/members/single/messages/single.php:23
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: html/members/single/messages/single.php:27
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: html/members/single/messages/single.php:84
+msgid "Send a Reply"
+msgstr ""
+
+#: html/members/single/messages/single.php:100
+msgid "Send Reply"
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:10
+msgid "Change Avatar"
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:16
+msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:23
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:32
+msgid "If you'd like to delete your current avatar but not upload a new one, please use the delete avatar button."
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:33
+msgid "Delete My Avatar"
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:40
+msgid "Crop Your New Avatar"
+msgstr ""
+
+#: html/members/single/profile/change-avatar.php:64
+msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgstr ""
+
+#: html/members/single/profile/edit.php:19
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: html/members/single/profile/edit.php:35
+#: html/members/single/profile/edit.php:42
+#: html/members/single/profile/edit.php:49
+#: html/members/single/profile/edit.php:58
+#: html/members/single/profile/edit.php:76
+#: html/members/single/profile/edit.php:92
+#: html/members/single/profile/edit.php:102 html/registration/register.php:44
+#: html/registration/register.php:48 html/registration/register.php:52
+#: html/registration/register.php:56 html/registration/register.php:83
+#: html/registration/register.php:91 html/registration/register.php:99
+#: html/registration/register.php:109 html/registration/register.php:120
+#: html/registration/register.php:135 html/registration/register.php:146
+#: html/registration/register.php:196 html/registration/register.php:205
+msgid "(required)"
+msgstr ""
+
+#: html/members/single/profile/edit.php:67
+#: html/members/single/profile/edit.php:82 html/registration/register.php:126
+msgid "Clear"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:17
+msgid "%s's Profile"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:24
+msgid "Name"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:33
+msgid "About Me"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:42
+msgid "Website"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:51
+msgid "Jabber"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:60
+msgid "AOL Messenger"
+msgstr ""
+
+#: html/members/single/profile/profile-wp.php:69
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: html/members/single/settings/delete-account.php:57
+msgid "Delete Account"
+msgstr ""
+
+#: html/members/single/settings/delete-account.php:62
+msgid "WARNING: Deleting your account will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: html/members/single/settings/delete-account.php:65
+msgid "I understand the consequences of deleting my account."
+msgstr ""
+
+#: html/members/single/settings/delete-account.php:70
+msgid "Delete My Account"
+msgstr ""
+
+#: html/members/single/settings/general.php:57
+msgid "General Settings"
+msgstr ""
+
+#: html/members/single/settings/general.php:63
+msgid "Current Password <span>(required to update email or change current password)</span>"
+msgstr ""
+
+#: html/members/single/settings/general.php:64
+msgid "Password Lost and Found"
+msgstr ""
+
+#: html/members/single/settings/general.php:64
+msgid "Lost your password?"
+msgstr ""
+
+#: html/members/single/settings/general.php:66
+msgid "Account Email"
+msgstr ""
+
+#: html/members/single/settings/general.php:69
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: html/members/single/settings/general.php:70
+msgid "New Password"
+msgstr ""
+
+#: html/members/single/settings/general.php:71
+msgid "Repeat New Password"
+msgstr ""
+
+#: html/members/single/settings/notifications.php:57
+msgid "Email Notification"
+msgstr ""
+
+#: html/members/single/settings/notifications.php:62
+msgid "Send a notification by email when:"
+msgstr ""
+
+#: html/registration/activate.php:19
+msgid "Account Activated"
+msgstr ""
+
+#: html/registration/activate.php:24
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr ""
+
+#: html/registration/activate.php:26
+msgid "Your account was activated successfully! You can now log in with the username and password you provided when you signed up."
+msgstr ""
+
+#: html/registration/activate.php:31
+msgid "Activate your Account"
+msgstr ""
+
+#: html/registration/activate.php:35
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: html/registration/activate.php:39
+msgid "Activation Key:"
+msgstr ""
+
+#: html/registration/activate.php:43
+msgid "Activate"
+msgstr ""
+
+#: html/registration/register.php:23
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: html/registration/register.php:30
+msgid "Create an Account"
+msgstr ""
+
+#: html/registration/register.php:34
+msgid "Registering for this site is easy, just fill in the fields below and we'll get a new account set up for you in no time."
+msgstr ""
+
+#: html/registration/register.php:42
+msgid "Account Details"
+msgstr ""
+
+#: html/registration/register.php:44
+msgid "Username"
+msgstr ""
+
+#: html/registration/register.php:48
+msgid "Email Address"
+msgstr ""
+
+#: html/registration/register.php:52
+msgid "Choose a Password"
+msgstr ""
+
+#: html/registration/register.php:56
+msgid "Confirm Password"
+msgstr ""
+
+#: html/registration/register.php:72
+msgid "Profile Details"
+msgstr ""
+
+#: html/registration/register.php:190
+msgid "Blog Details"
+msgstr ""
+
+#: html/registration/register.php:192
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: html/registration/register.php:196
+msgid "Blog URL"
+msgstr ""
+
+#: html/registration/register.php:205
+msgid "Site Title"
+msgstr ""
+
+#: html/registration/register.php:209
+msgid "I would like my site to appear in search engines, and in public listings around this network."
+msgstr ""
+
+#: html/registration/register.php:226
+msgid "Complete Sign Up"
+msgstr ""
+
+#: html/registration/register.php:237
+msgid "Sign Up Complete!"
+msgstr ""
+
+#: html/registration/register.php:243
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr ""
+
+#: html/registration/register.php:245
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
+
+#: loader.php:104
+msgid "Plugin settings have been saved."
+msgstr ""
+
+#: loader.php:110
+msgid "Settings"
+msgstr ""
+
+#: loader.php:118
+msgid "Disable default CSS"
+msgstr ""
+
+#: loader.php:122
+msgid "Disables loading the default CSS that comes with this plugin. This can be very useful if you want to create your own custom styling for BuddyPress elements."
+msgstr ""
+
+#: loader.php:127
+msgid "Disable JS"
+msgstr ""
+
+#: loader.php:131
+msgid "Disables the JavaScript for all BuddyPress elements."
+msgstr ""
+
+#: loader.php:136
+msgid "Disable BuddyBar"
+msgstr ""
+
+#: loader.php:140
+msgid "Disables the BuddyBar (Admin Bar) on the front end."
+msgstr ""
+
+#: loader.php:175
+msgid "You're using an older version of WordPress.  Please upgrade to <strong>WordPress 3.2</strong> or newer, otherwise the javascript bundled with BuddyPress will cease to work with your WordPress theme."
+msgstr ""
+
+#: loader.php:197
+msgid "The Gantry BuddyPress plugin requires the Gantry Framework Plugin and Gantry powered theme to be installed and active"
+msgstr ""
