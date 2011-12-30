@@ -3,8 +3,8 @@ Contributors: gantry
 Author URI: http://gantry-framework.org
 Tags: buddypress, gantry, social, framework, template, theme, widgets, flexible, extensible, configurable, 960px, grid, columns, powerful
 Requires at least: 3.2.0
-Tested up to: 3.2.1
-Stable tag: 1.0
+Tested up to: 3.3
+Stable tag: 1.1
 
 Gantry BuddyPress plugin adds the support for the BuddyPress 1.5 (or newer) to all Gantry powered themes.
 
@@ -39,7 +39,7 @@ The recommended minimum requirements are :
 
 * WordPress 3.2.1 or higher
 * BuddyPress 1.5 or higher
-* Gantry Framework plugin
+* Gantry Framework plugin 1.21 or higher
 * Gantry powered theme
 
 = Where are the options of the plugin ? =
@@ -52,13 +52,7 @@ It works with all Gantry powered themes (there can be some styling changes requi
 
 = Does it work with WordPress Multi Site installations ? =
 
-Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.20 is required.
-
-= Why I can't activate user account from the activation link sent via email (only for non Multi Site installations) ? =
-
-This is not a bug in the plugin - it's a WordPress fault. The file wp-activate.php responsible for account activation contains a code which is checking for the multi site installations and if non is discovered it redirects automatically user to the registration page.
-
-In that case you need to activate your account manually by copying the activation code from the email you received and pasting it in the input box on the "Activate" page (this is a page that BuddyPress should create durning the post-installation setup). If you don't have that page in your menu, you can add it there as any other page.
+Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.21 is required.
 
 = Can I customize the CSS style or the HTML structure of the BuddyPress files ? =
 
@@ -75,6 +69,9 @@ In order to change the structure of the BuddyPress files please follow these ste
 * Place it in your theme root directory - once plugin will detect these files in your theme directory, it will load them instead of the plugin ones.
 
 == Changelog ==
+
+= 1.1 =
+* Fixed activation link in the activation emails
 
 = 1.0 =
 * Initial release

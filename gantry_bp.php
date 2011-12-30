@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.0 October 15, 2011
+ * @version   1.1 December 30, 2011
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2011 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -124,7 +124,7 @@ function gantry_bp_query_components() {
 
     if ($bp->current_component != '') {
         $component = $bp->current_component;
-        $component = 'is_bp_'.$component;
+        $component = 'is_bp_' . $component;
         $wp_query->$component = true;
     }
 }
@@ -147,6 +147,16 @@ function gantry_bp_add_page_type_to_admin($page_types) {
 }
 
 add_action('gantry_admin_page_types', 'gantry_bp_add_page_type_to_admin');
+
+// Load proper activation page
+function gantry_bp_activation_page($page) {
+	global $bp;
+
+	$page = trailingslashit( bp_get_root_domain() . '/' . $bp->pages->activate->slug );
+	return $page;
+}
+
+add_filter('bp_get_activation_page', 'gantry_bp_activation_page');
 
 // Retrieve the name of the highest priority template file that exists
 function gantry_bp_locate_type($template_names, $load = false, $require_once = true) {

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.0 October 15, 2011
+ * @version   1.1 December 30, 2011
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2011 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -10,7 +10,7 @@ Plugin Name: Gantry BuddyPress
 Plugin URI: http://www.rockettheme.com
 Description: Gantry BuddyPress is a plugin that adds support for the BuddyPress to the Gantry Framework plugin. This can be applied to all Gantry powered themes.
 Author: RocketTheme, LLC
-Version: 1.0
+Version: 1.1
 Author URI: http://www.rockettheme.com
 License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
 Contains code from BuddyPress Template Pack Plugin by apeatling and boonebgorges
