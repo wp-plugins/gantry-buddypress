@@ -2,9 +2,9 @@
 Contributors: gantry
 Author URI: http://gantry-framework.org
 Tags: buddypress, gantry, social, framework, template, theme, widgets, flexible, extensible, configurable, 960px, grid, columns, powerful
-Requires at least: 3.2.0
-Tested up to: 3.3
-Stable tag: 1.1
+Requires at least: 3.2.1
+Tested up to: 3.3.1
+Stable tag: 1.2
 
 Gantry BuddyPress plugin adds the support for the BuddyPress 1.5 (or newer) to all Gantry powered themes.
 
@@ -52,7 +52,7 @@ It works with all Gantry powered themes (there can be some styling changes requi
 
 = Does it work with WordPress Multi Site installations ? =
 
-Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.21 is required.
+Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.21 or higher is required.
 
 = Can I customize the CSS style or the HTML structure of the BuddyPress files ? =
 
@@ -69,6 +69,9 @@ In order to change the structure of the BuddyPress files please follow these ste
 * Place it in your theme root directory - once plugin will detect these files in your theme directory, it will load them instead of the plugin ones.
 
 == Changelog ==
+
+= 1.2 =
+* Fixed bad plugin path that could occure on certain Multi Site installations
 
 = 1.1 =
 * Fixed activation link in the activation emails
