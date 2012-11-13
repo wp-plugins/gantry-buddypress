@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress - Users Friends
@@ -26,13 +23,13 @@
 
 			<li id="members-order-select" class="last filter">
 
-				<label for="members-all"><?php _e( 'Order By:', 'buddypress' ) ?></label>
-				<select id="members-all">
-					<option value="active"><?php _e( 'Last Active', 'buddypress' ) ?></option>
-					<option value="newest"><?php _e( 'Newest Registered', 'buddypress' ) ?></option>
-					<option value="alphabetical"><?php _e( 'Alphabetical', 'buddypress' ) ?></option>
+				<label for="members-friends"><?php _e( 'Order By:', 'buddypress' ); ?></label>
+				<select id="members-friends">
+					<option value="active"><?php _e( 'Last Active', 'buddypress' ); ?></option>
+					<option value="newest"><?php _e( 'Newest Registered', 'buddypress' ); ?></option>
+					<option value="alphabetical"><?php _e( 'Alphabetical', 'buddypress' ); ?></option>
 
-					<?php do_action( 'bp_member_blog_order_options' ) ?>
+					<?php do_action( 'bp_member_blog_order_options' ); ?>
 
 				</select>
 			</li>

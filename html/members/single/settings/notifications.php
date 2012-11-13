@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress Notification Settings
@@ -15,7 +12,8 @@
  * @package BuddyPress
  * @subpackage bp-default
  */
-?>
+
+get_header(); ?>
 
 	<div id="content">
 		<div class="padder">
@@ -56,7 +54,7 @@
 
 				<h3><?php _e( 'Email Notification', 'buddypress' ); ?></h3>
 
-				<?php do_action( 'bp_template_content' ) ?>
+				<?php do_action( 'bp_template_content' ); ?>
 
 				<form action="<?php echo bp_displayed_user_domain() . bp_get_settings_slug() . '/notifications'; ?>" method="post" class="standard-form" id="settings-form">
 					<p><?php _e( 'Send a notification by email when:', 'buddypress' ); ?></p>
@@ -83,3 +81,5 @@
 
 		</div><!-- .padder -->
 	</div><!-- #content -->
+
+<?php get_footer(); ?>

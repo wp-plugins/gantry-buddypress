@@ -1,12 +1,11 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 ?>
-
 <?php
 
 do_action( 'bp_before_group_header' );
@@ -26,7 +25,7 @@ do_action( 'bp_before_group_header' );
 		if ( bp_group_has_moderators() ) :
 			do_action( 'bp_before_group_menu_mods' ); ?>
 
-			<h3><?php _e( 'Group Mods' , 'buddypress' ) ?></h3>
+			<h3><?php _e( 'Group Mods' , 'buddypress' ); ?></h3>
 
 			<?php bp_group_list_mods();
 

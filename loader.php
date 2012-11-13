@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -10,7 +10,7 @@ Plugin Name: Gantry BuddyPress
 Plugin URI: http://www.rockettheme.com
 Description: Gantry BuddyPress is a plugin that adds support for the BuddyPress to the Gantry Framework plugin. This can be applied to all Gantry powered themes.
 Author: RocketTheme, LLC
-Version: 1.2
+Version: 1.3
 Author URI: http://www.rockettheme.com
 License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
 Contains code from BuddyPress Template Pack Plugin by apeatling and boonebgorges
@@ -135,6 +135,9 @@ function gantry_bp_options_page() {
 								<span class="description"><?php _e('Disables the JavaScript for all BuddyPress elements.', 'gantry_bp'); ?></span>
 							</td>
 						</tr>
+
+						<?php if(version_compare(BP_VERSION, '1.6', '<')) { ?>
+
 						<tr valign="top">
 							<th scope="row">
 								<label for="disable_buddybar"><?php _e('Disable BuddyBar', 'gantry_bp'); ?></label>
@@ -144,6 +147,9 @@ function gantry_bp_options_page() {
 								<span class="description"><?php _e('Disables the BuddyBar (Admin Bar) on the front end.', 'gantry_bp'); ?></span>
 							</td>
 						</tr>
+
+						<?php } ?>
+
 					</tbody>
 				</table>
 				<p class="submit">
@@ -161,11 +167,11 @@ function gantry_bp_settings_page_css() {
 	global $gantry_bp_url, $pagenow;
 	// Enqueue Style
 	if($pagenow == 'plugins.php' && $_GET['page'] == 'gantry-buddypress') :
-		wp_enqueue_style('gantry_bp_css', $gantry_bp_url.'/admin/admin.css');
+		wp_enqueue_style('gantry_bp_css', $gantry_bp_url . '/admin/admin.css');
 	endif;
 }
 
-add_action('admin_print_styles', 'gantry_bp_settings_page_css');
+add_action('admin_enqueue_scripts', 'gantry_bp_settings_page_css');
 
 // Adds an admin notice if WordPress version is older than 3.2
 function gantry_bp_wp_version_notice() {
@@ -211,7 +217,7 @@ if (!is_gantry_active() || !is_gantry_theme()) {
 // Load translations for the plugin
 function gantry_bp_load_languages() {
 	global $gantry_bp_path;
-	load_plugin_textdomain('gantry_bp', false, basename($gantry_bp_path).'/languages/');
+	load_plugin_textdomain('gantry_bp', false, basename($gantry_bp_path) . '/languages/');
 }
 
 add_action('plugins_loaded', 'gantry_bp_load_languages', 9);

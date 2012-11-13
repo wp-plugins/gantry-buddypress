@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress Member Settings
@@ -15,7 +12,8 @@
  * @package BuddyPress
  * @subpackage bp-default
  */
-?>
+
+get_header(); ?>
 
 	<div id="content">
 		<div class="padder">
@@ -56,12 +54,16 @@
 
 				<h3><?php _e( 'General Settings', 'buddypress' ); ?></h3>
 
-				<?php do_action( 'bp_template_content' ) ?>
+				<?php do_action( 'bp_template_content' ); ?>
 
 				<form action="<?php echo bp_displayed_user_domain() . bp_get_settings_slug() . '/general'; ?>" method="post" class="standard-form" id="settings-form">
 
-					<label for="pwd"><?php _e( 'Current Password <span>(required to update email or change current password)</span>', 'buddypress' ); ?></label>
-					<input type="password" name="pwd" id="pwd" size="16" value="" class="settings-input small" /> &nbsp;<a href="<?php echo site_url( add_query_arg( array( 'action' => 'lostpassword' ), 'wp-login.php' ), 'login' ); ?>" title="<?php _e( 'Password Lost and Found', 'buddypress' ); ?>"><?php _e( 'Lost your password?', 'buddypress' ); ?></a>
+					<?php if ( !is_super_admin() ) : ?>
+
+						<label for="pwd"><?php _e( 'Current Password <span>(required to update email or change current password)</span>', 'buddypress' ); ?></label>
+						<input type="password" name="pwd" id="pwd" size="16" value="" class="settings-input small" /> &nbsp;<a href="<?php echo site_url( add_query_arg( array( 'action' => 'lostpassword' ), 'wp-login.php' ), 'login' ); ?>" title="<?php _e( 'Password Lost and Found', 'buddypress' ); ?>"><?php _e( 'Lost your password?', 'buddypress' ); ?></a>
+
+					<?php endif; ?>
 
 					<label for="email"><?php _e( 'Account Email', 'buddypress' ); ?></label>
 					<input type="text" name="email" id="email" value="<?php echo bp_get_displayed_user_email(); ?>" class="settings-input" />
@@ -90,3 +92,5 @@
 
 		</div><!-- .padder -->
 	</div><!-- #content -->
+
+<?php get_footer(); ?>

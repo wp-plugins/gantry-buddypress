@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress - Users Groups
@@ -33,7 +30,7 @@
 					<option value="newest"><?php _e( 'Newly Created', 'buddypress' ); ?></option>
 					<option value="alphabetical"><?php _e( 'Alphabetical', 'buddypress' ); ?></option>
 
-					<?php do_action( 'bp_member_group_order_options' ) ?>
+					<?php do_action( 'bp_member_group_order_options' ); ?>
 
 				</select>
 			</li>

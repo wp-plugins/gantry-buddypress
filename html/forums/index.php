@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -14,6 +14,8 @@
  */
 
 ?>
+
+<?php get_header(); ?>
 
 	<?php do_action( 'bp_before_directory_forums_page' ); ?>
 
@@ -98,7 +100,7 @@
 
 						<form action="" method="post" id="forum-topic-form" class="standard-form">
 
-							<?php do_action( 'groups_forum_new_topic_before' ) ?>
+							<?php do_action( 'groups_forum_new_topic_before' ); ?>
 
 							<a name="post-new"></a>
 							<h5><?php _e( 'Create New Topic:', 'buddypress' ); ?></h5>
@@ -106,7 +108,7 @@
 							<?php do_action( 'template_notices' ); ?>
 
 							<label><?php _e( 'Title:', 'buddypress' ); ?></label>
-							<input type="text" name="topic_title" id="topic_title" value="" />
+							<input type="text" name="topic_title" id="topic_title" value="" maxlength="100" />
 
 							<label><?php _e( 'Content:', 'buddypress' ); ?></label>
 							<textarea name="topic_text" id="topic_text"></textarea>
@@ -121,7 +123,7 @@
 
 								<?php while ( bp_groups() ) : bp_the_group(); ?>
 
-									<?php if ( bp_group_is_forum_enabled() && ( is_super_admin() || 'public' == bp_get_group_status() || bp_group_is_member() ) ) : ?>
+									<?php if ( bp_group_is_forum_enabled() && ( bp_current_user_can( 'bp_moderate' ) || 'public' == bp_get_group_status() || bp_group_is_member() ) ) : ?>
 
 										<option value="<?php bp_group_id(); ?>"><?php bp_group_name(); ?></option>
 
@@ -146,7 +148,7 @@
 
 						<div id="message" class="info">
 
-							<p><?php printf( __( "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum.", 'buddypress' ), site_url( bp_get_groups_root_slug() . '/create/' ) ) ?></p>
+							<p><?php printf( __( "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum.", 'buddypress' ), site_url( bp_get_groups_root_slug() . '/create/' ) ); ?></p>
 
 						</div>
 
@@ -163,3 +165,5 @@
 	</div><!-- #content -->
 
 	<?php do_action( 'bp_after_directory_forums_page' ); ?>
+
+<?php get_footer(); ?>

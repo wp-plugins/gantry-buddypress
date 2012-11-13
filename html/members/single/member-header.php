@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress - Users Header
@@ -21,7 +18,7 @@
 <?php do_action( 'bp_before_member_header' ); ?>
 
 <div id="item-header-avatar">
-	<a href="<?php bp_user_link(); ?>">
+	<a href="<?php bp_displayed_user_link(); ?>">
 
 		<?php bp_displayed_user_avatar( 'type=full' ); ?>
 
@@ -60,7 +57,7 @@
 		<?php
 		/***
 		 * If you'd like to show specific profile fields here use:
-		 * bp_profile_field_data( 'field=About Me' ); -- Pass the name of the field
+		 * bp_member_profile_data( 'field=About Me' ); -- Pass the name of the field
 		 */
 		 do_action( 'bp_profile_header_meta' );
 

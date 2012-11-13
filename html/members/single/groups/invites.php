@@ -1,13 +1,13 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 ?>
 
-<?php do_action( 'bp_before_group_invites_content' ) ?>
+<?php do_action( 'bp_before_group_invites_content' ); ?>
 
 <?php if ( bp_has_groups( 'type=invites&user_id=' . bp_loggedin_user_id() ) ) : ?>
 
@@ -17,22 +17,22 @@
 
 			<li>
 				<div class="item-avatar">
-					<a href="<?php bp_group_permalink() ?>"><?php bp_group_avatar( 'type=thumb&width=50&height=50' ) ?></a>
+					<a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumb&width=50&height=50' ); ?></a>
 				</div>
 
-				<h4><a href="<?php bp_group_permalink() ?>"><?php bp_group_name() ?></a><span class="small"> - <?php printf( __( '%s members', 'buddypress' ), bp_group_total_members( false ) ) ?></span></h4>
+				<h4><a href="<?php bp_group_permalink(); ?>"><?php bp_group_name(); ?></a><span class="small"> - <?php printf( __( '%s members', 'buddypress' ), bp_group_total_members( false ) ); ?></span></h4>
 
 				<p class="desc">
-					<?php bp_group_description_excerpt() ?>
+					<?php bp_group_description_excerpt(); ?>
 				</p>
 
-				<?php do_action( 'bp_group_invites_item' ) ?>
+				<?php do_action( 'bp_group_invites_item' ); ?>
 
 				<div class="action">
-					<a class="button accept" href="<?php bp_group_accept_invite_link() ?>"><?php _e( 'Accept', 'buddypress' ) ?></a> &nbsp;
-					<a class="button reject confirm" href="<?php bp_group_reject_invite_link() ?>"><?php _e( 'Reject', 'buddypress' ) ?></a>
+					<a class="button accept" href="<?php bp_group_accept_invite_link(); ?>"><?php _e( 'Accept', 'buddypress' ); ?></a> &nbsp;
+					<a class="button reject confirm" href="<?php bp_group_reject_invite_link(); ?>"><?php _e( 'Reject', 'buddypress' ); ?></a>
 
-					<?php do_action( 'bp_group_invites_item_action' ) ?>
+					<?php do_action( 'bp_group_invites_item_action' ); ?>
 
 				</div>
 			</li>
@@ -43,9 +43,9 @@
 <?php else: ?>
 
 	<div id="message" class="info" role="main">
-		<p><?php _e( 'You have no outstanding group invites.', 'buddypress' ) ?></p>
+		<p><?php _e( 'You have no outstanding group invites.', 'buddypress' ); ?></p>
 	</div>
 
 <?php endif;?>
 
-<?php do_action( 'bp_after_group_invites_content' ) ?>
+<?php do_action( 'bp_after_group_invites_content' ); ?>

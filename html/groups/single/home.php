@@ -1,18 +1,19 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 ?>
+<?php get_header(); ?>
 
 	<div id="content">
 		<div class="padder">
 
 			<?php if ( bp_has_groups() ) : while ( bp_groups() ) : bp_the_group(); ?>
 
-			<?php do_action( 'bp_before_group_home_content' ) ?>
+			<?php do_action( 'bp_before_group_home_content' ); ?>
 
 			<div id="item-header" role="complementary">
 
@@ -84,3 +85,5 @@
 
 		</div><!-- .padder -->
 	</div><!-- #content -->
+
+<?php get_footer(); ?>

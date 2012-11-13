@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -100,7 +100,7 @@ function gantry_bp_enqueue_styles() {
 		wp_enqueue_style( 'bp-rtl',  $gantry_bp_url . '/' . 'bp-rtl.css', array( 'bp' ), $version );
 }
 
-add_action('wp_print_styles', 'gantry_bp_enqueue_styles');
+add_action('wp_enqueue_scripts', 'gantry_bp_enqueue_styles');
 
 // Gantry BuddyPress plugin doesn't use bp-default's built-in sidebar login block,
 // so during no access requests, we need to redirect them to wp-login for

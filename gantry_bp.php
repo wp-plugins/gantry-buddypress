@@ -1,13 +1,13 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
 // Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
+if (!defined('ABSPATH')) exit;
 
 // Enable/Disable BuddyBar
 function gantry_bp_disable_buddybar() {
@@ -44,7 +44,7 @@ function gantry_bp_located_template_filter($returned, $templates) {
     global $gantry;
 
     foreach ($gantry->_contentTypePaths as $file_path) {
-        $template_file = $file_path . DS . $templates[0];
+        $template_file = $file_path . '/' . $templates[0];
         if(file_exists($template_file)) {
             $main_body_template = $template_file;
             break;
@@ -58,15 +58,6 @@ function gantry_bp_located_template_filter($returned, $templates) {
 
 add_filter('bp_located_template', 'gantry_bp_located_template_filter', 10, 2);
 
-function gantry_bp_finish_loading_templates($templates) {
-    global $gantry;
-
-    require_once( ABSPATH . WPINC . '/template-loader.php' );
-    die;
-}
-
-add_filter('bp_load_template', 'gantry_bp_finish_loading_templates');
-
 // Adds extra paths for Gantry to search for files
 function gantry_bp_add_file_paths() {
     global $gantry, $gantry_bp_path;
@@ -79,20 +70,6 @@ function gantry_bp_add_file_paths() {
 }
 
 add_action('after_setup_theme', 'gantry_bp_add_file_paths');
-
-// Search for override files in all given location, and include them when found
-function gantry_bp_mainbody_include($main_body_template) {
-    global $gantry;
-
-    $bp_template_file = $gantry->retrieveTemp('buddypress', 'template_file');
-
-    if($bp_template_file !== null) {
-        $main_body_template = $bp_template_file;
-    }
-    return $main_body_template;
-}
-
-add_action('gantry_mainbody_include', 'gantry_bp_mainbody_include');
 
 // Check for active BuddyPress component and skip Title gizmo if needed
 function gantry_bp_check_component_title($title) {

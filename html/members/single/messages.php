@@ -1,13 +1,10 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
-?>
-
-<?php
 
 /**
  * BuddyPress - Users Messages
@@ -24,6 +21,13 @@
 		<?php bp_get_options_nav(); ?>
 
 	</ul>
+	
+	<?php if ( bp_is_messages_inbox() || bp_is_messages_sentbox() ) : ?>
+
+		<div class="message-search"><?php bp_message_search_form(); ?></div>
+
+	<?php endif; ?>
+
 </div><!-- .item-list-tabs -->
 
 <?php

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -29,7 +29,7 @@
 
 	<div class="acomment-meta">
 		<?php
-		/* translators: 1: user profile link, 2: user name, 3: activity permalink, 3: activity timestamp */
+		/* translators: 1: user profile link, 2: user name, 3: activity permalink, 4: activity timestamp */
 		printf( __( '<a href="%1$s">%2$s</a> replied <a href="%3$s" class="activity-time-since"><span class="time-since">%4$s</span></a>', 'buddypress' ), bp_get_activity_comment_user_link(), bp_get_activity_comment_name(), bp_get_activity_thread_permalink(), bp_get_activity_comment_date_recorded() );
 		?>
 	</div>
@@ -40,7 +40,7 @@
 
 		<?php if ( is_user_logged_in() && bp_activity_can_comment_reply( bp_activity_current_comment() ) ) : ?>
 
-			<a href="#acomment-<?php bp_activity_comment_id(); ?>" class="acomment-reply bp-primary-action" id="acomment-reply-<?php bp_activity_id() ?>-from-<?php bp_activity_comment_id() ?>"><?php _e( 'Reply', 'buddypress' ); ?></a>
+			<a href="#acomment-<?php bp_activity_comment_id(); ?>" class="acomment-reply bp-primary-action" id="acomment-reply-<?php bp_activity_id(); ?>-from-<?php bp_activity_comment_id(); ?>"><?php _e( 'Reply', 'buddypress' ); ?></a>
 
 		<?php endif; ?>
 
@@ -49,6 +49,8 @@
 			<a href="<?php bp_activity_comment_delete_link(); ?>" class="delete acomment-delete confirm bp-secondary-action" rel="nofollow"><?php _e( 'Delete', 'buddypress' ); ?></a>
 
 		<?php endif; ?>
+
+		<?php do_action( 'bp_activity_comment_options' ); ?>
 
 	</div>
 

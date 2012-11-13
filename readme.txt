@@ -3,14 +3,14 @@ Contributors: gantry
 Author URI: http://gantry-framework.org
 Tags: buddypress, gantry, social, framework, template, theme, widgets, flexible, extensible, configurable, 960px, grid, columns, powerful
 Requires at least: 3.2.1
-Tested up to: 3.3.1
-Stable tag: 1.2
+Tested up to: 3.4.2
+Stable tag: 1.3
 
-Gantry BuddyPress plugin adds the support for the BuddyPress 1.5 (or newer) to all Gantry powered themes.
+Gantry BuddyPress plugin adds the support for the BuddyPress 1.6 (or newer) to all Gantry powered themes.
 
 == Description ==
 
-Gantry BuddyPress plugin adds the support for the BuddyPress 1.5 (or newer) to all Gantry powered themes. The only thing that user needs to do is to download and activate the plugin. Depending on the theme some styling fixes might need to be applied.
+Gantry BuddyPress plugin adds the support for the BuddyPress 1.6 (or newer) to all Gantry powered themes. The only thing that user needs to do is to download and activate the plugin. Depending on the theme some styling fixes might need to be applied.
 
 == Installation ==
 
@@ -38,9 +38,9 @@ Please note that you need to have activated Gantry Framework plugin and Gantry p
 The recommended minimum requirements are :
 
 * WordPress 3.2.1 or higher
-* BuddyPress 1.5 or higher
-* Gantry Framework plugin 1.21 or higher
-* Gantry powered theme
+* BuddyPress 1.6 or higher
+* Gantry Framework plugin 1.28 or higher
+* Gantry powered theme (updated for 1.28 compatibility fixes)
 
 = Where are the options of the plugin ? =
 
@@ -52,7 +52,7 @@ It works with all Gantry powered themes (there can be some styling changes requi
 
 = Does it work with WordPress Multi Site installations ? =
 
-Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.21 or higher is required.
+Yes it does! In order to have it working in the Multi Site environment a Gantry Framework plugin version 1.28 or higher is required.
 
 = Can I customize the CSS style or the HTML structure of the BuddyPress files ? =
 
@@ -69,6 +69,9 @@ In order to change the structure of the BuddyPress files please follow these ste
 * Place it in your theme root directory - once plugin will detect these files in your theme directory, it will load them instead of the plugin ones.
 
 == Changelog ==
+
+= 1.3 =
+* Added support for the BuddyPress 1.6+ - please note that this update requires a Gantry Framework 1.28+ and theme compatibility fixes described here: http://goo.gl/m6k20
 
 = 1.2 =
 * Fixed bad plugin path that could occure on certain Multi Site installations

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   1.2 January 12, 2012
+ * @version   1.3 November 8, 2012
  * @author    RocketTheme, LLC http://www.rockettheme.com
  * @copyright Copyright © 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -45,7 +45,7 @@
 
 				<div id="whats-new-post-in-box">
 
-					<?php _e( 'Post in', 'buddypress' ) ?>:
+					<?php _e( 'Post in', 'buddypress' ); ?>:
 
 					<select id="whats-new-post-in" name="whats-new-post-in">
 						<option selected="selected" value="0"><?php _e( 'My Profile', 'buddypress' ); ?></option>
